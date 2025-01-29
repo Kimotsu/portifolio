@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Davi Mota - Portfolio</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="toggle-dark-mode" onclick="toggleDarkMode()">
+        <i class="fas fa-moon"></i>
+    </div>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">DM</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Skills -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <!-- Left Column - Intro -->
+                <div class="hero-intro fade-in">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Davi Mota</span>
+                    </h1>
+                    <p class="hero-subtitle">Blockchain Developer & Web3 Developer</p>
+                </div>
+
+                <!-- Right Column - Skills -->
+                <div class="skills-container fade-in">
+                    <h2 class="skills-title">Technical Skills</h2>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>HTML/CSS</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar" data-percent="90"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Solidity</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar" data-percent="80"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Python</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar" data-percent="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <!-- Project Card 1 -->
+                        <div class="project-card">
+                            <img src="wallet.jpg" alt="Decentralized Wallet" class="project-image">
+                            <div class="project-content">
+                                <h3 class="project-title">Web3 Wallet</h3>
+                    <p class="project-description">I’m creating a decentralized wallet that gives users full control over their cryptocurrencies. The platform allows users to securely store, send, and receive digital assets with blockchain integration, maintaining privacy and security. It’s a simple, safe, and autonomous wallet for those who want full control over their funds.</p>
+                            </div>
+                        </div>
+                        <!-- Project Card 2 -->
+                        <div class="project-card">
+                            <img src="social.png" alt="Decentralized Social Network" class="project-image">
+                            <div class="project-content">
+                                <h3 class="project-title">Social Media Web3</h3>
+                    <p class="project-description">I am building a decentralized social network that gives users full control over their data and content. Using blockchain to transparently record interactions and IPFS to securely store posts, the platform enables wallet-based login, direct rewards through tokens, and community-driven governance via a DAO. The focus is on ensuring privacy, transparency, and autonomy for all users.</p>
+                            </div>
+                        </div>
+                        <!-- Project Card 3 -->
+                        <div class="project-card">
+                            <img src="game.jpeg" alt="Play-to-Earn Game" class="project-image">
+                            <div class="project-content">
+                                <h3 class="project-title">Web3 Game</h3>
+                    <p class="project-description">I’m developing a Play-to-Earn game where players earn tokens through gameplay. By utilizing blockchain, I track in-game achievements and rewards, allowing players to trade, upgrade, and monetize their digital assets. It’s a fun, decentralized, and rewarding gaming experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container mx-auto px-6">
+            <div class="md">
+                <img src="profile.png" alt="Davi Mota"
+                    class="rounded-full w-64 h-64 object-cover shadow-xl mx-auto" />
+            </div>
+
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-2/3">
+                    <h2 class="text-3xl font-bold mb-6 gradient-text">About Me</h2>
+                    <p class="text-gray-600 dark:text-gray-300 mb-4">
+                        I am a professional transitioning into the tech industry, specializing in blockchain development, with over 4 years of combined experience in technical support and customer service. I have knowledge in programming with <strong>Solidity, JavaScript, and Python, as well as hands-on experience with tools like Remix IDE, Truffle, and Metamask.
+                        </strong>
+                    </p>
+                    <p class="text-gray-600 dark:text-gray-300 mb-6">
+                        Currently, I am building expertise in smart contracts, Web3, and decentralized solutions, with a strong interest in DeFi and NFTs. My previous experience includes providing technical support for internet networks, configuring and maintaining equipment, and optimizing processes with a problem-solving approach.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="mailto:kimotsudev@gmail.com" class="social-link gmail">
+                            <i class="fas fa-envelope"></i>
+                            Gmail
+                        </a>
+                        <a href="https://www.linkedin.com/in/davimota/" class="social-link linkedin">
+                            <i class="fab fa-linkedin"></i>
+                            LinkedIn
+                        </a>
+                        <a href="https://github.com/kimotsu" class="social-link github">
+                            <i class="fab fa-github"></i>
+                            Github
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-12 text-center gradient-text animate-fade-in">Skills & Technologies</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <!-- Blockchain Skills -->
+                <div class="skill-card p-6 bg-blue dark:bg-gray-800 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105">
+                    <i class="fab fa-ethereum text-4xl mb-4 text-blue-600 animate-bounce"></i>
+                    <h3 class="font-bold mb-2">Blockchain</h3>
+                    <p class="text-white-600 dark:text-white-300">Solidity, Web3.js, Ethereum</p>
+                    <div class="mt-4 bg-gray-200 dark:bg-gray-700 rounded-full">
+                        <div class="skill-bar bg-blue-600 h-2 rounded-full" style="width: 85%"></div>
+                    </div>
+                </div>
+
+                <!-- Frontend Skills -->
+                <div class="skill-card p-6 bg-dark dark:bg-white-800 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105">
+                    <i class="fab fa-react text-4xl mb-4 text-blue-400 animate-bounce"></i>
+                    <h3 class="font-bold mb-2">Frontend</h3>
+                    <p class="text-white-600 dark:text-white-300">React, HTML, CSS, JavaScript</p>
+                    <div class="mt-4 bg-gray-200 dark:bg-gray-700 rounded-full">
+                        <div class="skill-bar bg-blue-400 h-2 rounded-full" style="width: 90%"></div>
+                    </div>
+                </div>
+
+                <!-- Backend Skills -->
+                <div class="skill-card p-6 bg-grenn dark:bg-gray-800 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105">
+                    <i class="fas fa-server text-4xl mb-4 text-green-500 animate-bounce"></i>
+                    <h3 class="font-bold mb-2">Backend</h3>
+                    <p class="text-white-600 dark:text-white-300">Node.js, Python, Databases</p>
+                    <div class="mt-4 bg-gray-200 dark:bg-gray-700 rounded-full">
+                        <div class="skill-bar bg-green-500 h-2 rounded-full" style="width: 80%"></div>
+                    </div>
+                </div>
+
+                <!-- Tools Skills -->
+                <div class="skill-card p-6 bg-purle dark:bg-gray-800 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105">
+                    <i class="fas fa-tools text-4xl mb-4 text-purple-500 animate-bounce"></i>
+                    <h3 class="font-bold mb-2">Tools</h3>
+                    <p class="text-white-600 dark:text-white-300">Git, Docker, VS Code</p>
+                    <div class="mt-4 bg-gray-200 dark:bg-gray-700 rounded-full">
+                        <div class="skill-bar bg-purple-500 h-2 rounded-full" style="width: 75%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+            const icon = document.querySelector('.toggle-dark-mode i');
+            if (document.body.classList.contains('dark-mode')) {
+                icon.classList.remove('fa-moon');
+                icon.classList.add('fa-sun');
+            } else {
+                icon.classList.remove('fa-sun');
+                icon.classList.add('fa-moon');
+            }
+        }
+    </script>
+</body>
+
+</html>
