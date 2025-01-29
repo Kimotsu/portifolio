@@ -27,4 +27,4 @@ A modern, responsive portfolio website showcasing my blockchain development proj
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/kimotsu/portfolio.git
